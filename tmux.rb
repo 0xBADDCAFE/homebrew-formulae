@@ -22,6 +22,7 @@ class Tmux < Formula
   end
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles"
     cellar :any
     revision 2
     sha256 "815920cd38a8102360f7d667271d9c724f41087dd79be433db29259390ef8011" => :el_capitan
